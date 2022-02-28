@@ -28,6 +28,14 @@
   pip install boto3 #(Windows)
   ```
 
+## How to setup environment
+---
+1. For using it with ***AWS IAM users***, set up the default profile using `aws configure`. The project will execute in that account.
+
+2. For ***AWS SSO users***, copy and paste the temporary credentials in the terminal in which you want to execute the script.
+
+3. For ***IAM Role***, this feature will be supported in future.
+
 ## Execution Types
 ---
 1. Execute from command line as command line program
