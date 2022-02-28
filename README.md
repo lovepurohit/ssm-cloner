@@ -115,5 +115,5 @@
 
 ## Links
 ---
-* pypi -
-* Github -
+* pypi - https://pypi.org/project/ssm-cloner/
+* Github - https://github.com/lovepurohit/ssm-cloner
