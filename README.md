@@ -44,6 +44,32 @@
 
 3. Use it as a installer - PENDING
 
+
+## Minimal Permission
+---
+* In order to run the program, your user needs to have the sufficient permission.
+
+
+* Below is the permissions that is required for the program to run.
+  ```json
+  {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ssm:GetDocument",
+                "ssm:ListDocuments",
+                "ssm:DeleteDocument",
+                "ssm:CreateDocument"
+            ],
+            "Resource": "*"
+        }
+     ]
+  }
+  ```
+
 ## Execution Steps
 ---
 1. Clone the repo in your system
